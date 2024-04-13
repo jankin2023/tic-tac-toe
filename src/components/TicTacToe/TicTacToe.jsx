@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import "./TicTacToe.css";
-import circle from "../assets/circle.png";
-import cross from "../assets/cross.png";
+import circle from "../../assets/circle.png";
+import cross from "../../assets/cross.png";
 
 // 存储棋盘的数据
 let data = ["", "", "", "", "", "", "", "", ""];
