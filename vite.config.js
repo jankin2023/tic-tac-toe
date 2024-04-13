@@ -6,6 +6,7 @@ export default defineConfig(({ command, mode, isSsrBuild, isPreview }) => {
     if (mode === "production") {
         return {
             base: "/tic-tac-toe/",
+            plugins: [react()],
         };
     }
 
