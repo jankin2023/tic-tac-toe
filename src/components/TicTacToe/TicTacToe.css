@@ -70,3 +70,38 @@
     height: 50px;
     display: inline-block;
 }
+
+@media screen and (max-width: 768px) {
+    .title {
+        margin-top: 30px;
+        font-size: 30px;
+    }
+
+    .reset {
+        width: 200px;
+        height: 60px;
+        border-radius: 30px;
+    }
+
+    .boxes {
+        height: 100px;
+        width: 100px;
+        background: #1f3540;
+        border: 4px solid #0f1b21;
+        border-radius: 12px;
+    }
+
+    .board {
+        width: 300px;
+    }
+
+    .boxes img {
+        height: 40px;
+        width: 40px;
+    }
+
+    .title img {
+        padding: 0 20px;
+        height: 26px;
+    }
+}
